@@ -1,0 +1,157 @@
+#sec_nav {
+  width: 100%;
+  margin-left: 20px;
+  height: 40px;
+  line-height: 46px; }
+  #sec_nav a {
+    color: #33336A;
+    padding: 5px 10px; }
+  #sec_nav span {
+    color: #999;
+    margin: -2px; }
+
+#goodDetails {
+  border: 1px solid #efefef;
+  background: #FFF;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  overflow: hidden; }
+  #goodDetails ul li {
+    width: 1218px;
+    height: 46px; }
+    #goodDetails ul li a {
+      padding: 0 40px; }
+    #goodDetails ul li a:hover {
+      color: #00C3F5; }
+
+#secGoodList {
+  background: #F8F8F8; }
+  #secGoodList p {
+    margin-left: 20px;
+    margin-top: 30px; }
+    #secGoodList p span {
+      padding: 20px; }
+    #secGoodList p span:hover {
+      color: #00C3F5; }
+
+#secGoodDetail {
+  background: #F8F8F8;
+  margin-top: 30px; }
+  #secGoodDetail ul {
+    margin-left: 10px;
+    position: relative; }
+    #secGoodDetail ul li {
+      display: inline-block;
+      vertical-align: middle;
+      width: 301px;
+      height: 416px;
+      margin: 0 12px 12px 0;
+      position: relative;
+      background: #fff;
+      transition: all .3s ease;
+      text-align: center; }
+      #secGoodDetail ul li a {
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        overflow: hidden;
+        text-align: center; }
+        #secGoodDetail ul li a h4 {
+          font-size: 14px;
+          color: #555757;
+          margin-top: 65px;
+          font-weight: 400; }
+        #secGoodDetail ul li a h6 {
+          font-size: 12px;
+          color: #B29999; }
+        #secGoodDetail ul li a span {
+          padding-right: 2px;
+          margin: 0 4px;
+          font-size: 14px;
+          color: #e02b41; }
+    #secGoodDetail ul li:hover {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      top: -3px;
+      z-index: 3;
+      transition: box-shadow .2s,z-index 0s; }
+
+#pic {
+  width: 220px;
+  height: 220px;
+  margin-top: 0;
+  margin-left: -20px; }
+
+#pic1 {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+  float: left; }
+
+#box {
+  overflow: hidden;
+  margin-left: 55px; }
+
+#borde {
+  border: 1px solid #EFEFEF;
+  overflow: hidden;
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin-right: 5px;
+  border-radius: 5px; }
+
+#recommendGood {
+  width: 100%;
+  margin-bottom: 40px; }
+  #recommendGood h2 {
+    margin-top: 40px;
+    font-weight: 400;
+    margin-left: 20px; }
+  #recommendGood ul {
+    background: #fff;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 20px; }
+    #recommendGood ul li {
+      display: inline-block;
+      vertical-align: middle;
+      width: 240px;
+      height: 338px;
+      margin-top: 20px;
+      position: relative;
+      background: #fff;
+      transition: all .3s ease;
+      text-align: center; }
+      #recommendGood ul li a {
+        display: block;
+        height: 100%;
+        padding: 0 10px;
+        overflow: hidden;
+        text-align: center; }
+        #recommendGood ul li a div {
+          width: 220px;
+          height: 220px; }
+          #recommendGood ul li a div img {
+            width: 180px;
+            heigh: 180px; }
+        #recommendGood ul li a h4 {
+          font-size: 14px;
+          color: #555757;
+          margin-top: 30px;
+          font-weight: 400; }
+        #recommendGood ul li a h6 {
+          font-size: 12px;
+          color: #B29999; }
+        #recommendGood ul li a span {
+          padding-right: 2px;
+          margin: 0 4px;
+          font-size: 14px;
+          color: #e02b41; }
+    #recommendGood ul li:hover img {
+      transform-origin: 50% 50%;
+      transform: scale(1.1111);
+      top: -3px;
+      z-index: 3;
+      transition: all .2s,z-index 0s; }
